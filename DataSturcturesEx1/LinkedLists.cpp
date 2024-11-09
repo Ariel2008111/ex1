@@ -22,7 +22,7 @@ void addToHead(Node** head, int value)
 void printList(Node* head)
 {
     Node* current = 0;
-    if (head == nullptr)
+    if (head == nullptr)//check if empty
     {
         std::cout << "List is empty.";
     }
