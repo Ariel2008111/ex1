@@ -17,7 +17,7 @@ void initQueue(Queue* q, unsigned int size);
 void cleanQueue(Queue* q);
 
 void enqueue(Queue* q, unsigned int newValue);
-int dequeue(Queue* q); // return element in top of queue, or -1 if empty
+int dequeue(Queue* q); // return element in top of queue, or -1 if Empty
 
 bool isEmpty(Queue* s);
 bool isFull(Queue* s);

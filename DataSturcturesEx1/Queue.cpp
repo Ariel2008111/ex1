@@ -44,7 +44,7 @@ int dequeue(Queue* q)
 }
 bool isEmpty(Queue* s) 
 {
-    return s->size == 0;
+    return s->size ==  0;
 }
 bool isFull(Queue* s) 
 {

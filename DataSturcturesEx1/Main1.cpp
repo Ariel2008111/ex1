@@ -20,7 +20,7 @@ using std::endl;
 
 void set_console_color(unsigned int color)
 {
-    // colors are 0=black 1=blue 2=green and so on to 15=white
+    // colors are 0=black 1=blue 2=green and so on to 15=White
     // colorattribute = foreground + background * 16
     // to get red text on yellow use 4 + 14*16 = 228
     // light red on yellow would be 12 + 14*16 = 236
