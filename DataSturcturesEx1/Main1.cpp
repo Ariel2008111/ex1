@@ -172,7 +172,7 @@ bool test2()
             << "\n" << endl;
 
         if (!full)
-            // queue is not empty - test failed
+            // Queue is not empty - test failed
             return false;
 
         int dequeueResult = dequeue(q1);

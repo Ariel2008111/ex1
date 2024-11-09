@@ -11,7 +11,7 @@ void initQueue(Queue* q, unsigned int size)
 void cleanQueue(Queue* q) 
 {
     delete[]q->queueElements;
-    q->queueElements = nullptr;
+    q->queueElements = nullptr;//null
 }
 void enqueue(Queue* q, unsigned int newValue) 
 {
