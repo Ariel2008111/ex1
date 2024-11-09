@@ -19,9 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkedLists.h" />
     <ClInclude Include="Queue.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LinkedLists.cpp" />
     <ClCompile Include="Main1.cpp" />
     <ClCompile Include="Queue.cpp" />
   </ItemGroup>
