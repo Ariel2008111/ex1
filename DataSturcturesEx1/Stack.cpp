@@ -11,7 +11,8 @@ bool isEmpty(Stack* s)
 {
     return s->top == nullptr;//Null
 }
-bool isFull(Stack* s) {
+bool isFull(Stack* s) 
+{
     //dont have max size because its a list and not array
     return s->top != nullptr;
 }

@@ -2,7 +2,7 @@
 #define QUEUE_H
 
 
-/* a queue contains positive integer values. */
+/* A queue contains positive integer values. */
 typedef struct Queue
 {
 	int front;

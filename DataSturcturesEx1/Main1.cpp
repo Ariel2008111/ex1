@@ -1,7 +1,7 @@
 #include "Queue.h"
 #include <iostream>
 #include <sstream>
-#include <windows.h> // WinApi header - needed for setting console coloR
+#include <windows.h> // WinApi header - needed for setting console color
 
 using std::cout;
 using std::endl;
