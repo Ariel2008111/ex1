@@ -44,6 +44,6 @@ int* reverse10()
         reversedArray[index++] = pop(stack);
     }
 
-    delete stack;
+    delete stack; //free
     return reversedArray;
 }
