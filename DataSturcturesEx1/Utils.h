@@ -1,6 +1,6 @@
 #ifndef UTILS_H
 #define UTILS_H
-//Funcitons
+//funcitonss
 void reverse(int* nums, unsigned int size);
 int* reverse10();
 

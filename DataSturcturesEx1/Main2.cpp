@@ -1,7 +1,7 @@
 
 #include "Stack.h"
 #include "Utils.h"
-#include <windows.h> // WinApi header - needed for setting console color
+#include <windows.h> // WinApi header - needed for setting console ColoR
 
 #include <iostream>'
 #include <sstream>

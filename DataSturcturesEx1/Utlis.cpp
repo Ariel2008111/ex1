@@ -3,7 +3,7 @@
 #include "stack.h"
 void reverse(int* nums, unsigned int size) 
 {
-    unsigned int i = 0;
+    int i = 0;
     Stack stack;
     initStack(&stack);
     for (i = 0; i < size; i++) 
@@ -18,32 +18,18 @@ void reverse(int* nums, unsigned int size)
 }
 int* reverse10() 
 {
-    int numbers[10];
+    int* nums = new int[10];
     int i = 0;
-    std::cout << "Please enter ten integers:";
-    for (i = 0; i < 10; i++) 
-    {
-        std::cout << "Enter number:\n";
-        std::cin >> numbers[i];
-    }
-    int* reversedArray = new int[10];
-    for (int i = 0; i < 10; ++i)
-    {
-        reversedArray[i] = numbers[9 - i]; 
-    }
-    Stack* stack = new Stack();
-    initStack(stack);
-    for (i = 9; i >= 0; i--) 
-    {
-        push(stack, numbers[i]);
-    }
+    std::cout << "Please enter 10 integers:" << std::endl;
 
-    int index = 0;
-    while (!isEmpty(stack)) 
-    {
-        reversedArray[index++] = pop(stack);
-    }
 
-    delete stack; //Free
-    return reversedArray;
+    for (i = 0; i < 10; ++i)
+    {
+        std::cin >> nums[i];
+    }
+    //use the fucntion from before
+    reverse(nums, 10);
+
+
+    return nums;
 }
