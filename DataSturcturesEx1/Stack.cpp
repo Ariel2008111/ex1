@@ -1,7 +1,7 @@
 #include "Stack.h"
 void initStack(Stack* s) 
 {
-    s->top = nullptr;//Null
+    s->top = nullptr;//null
 }
 void push(Stack* s, unsigned int element) 
 {
