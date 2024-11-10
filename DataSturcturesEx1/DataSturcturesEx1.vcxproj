@@ -21,11 +21,16 @@
   <ItemGroup>
     <ClInclude Include="LinkedLists.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LinkedLists.cpp" />
     <ClCompile Include="Main1.cpp" />
+    <ClCompile Include="Main2.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Utlis.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

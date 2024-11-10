@@ -1,10 +1,6 @@
 #include "LinkedLists.h"
 #include <iostream>
-Node* createList() 
-{
-    Node *head = nullptr;
-    return head;
-}
+
 void addToHead(Node** head, int value) 
 {
     Node* newNode = new Node();
@@ -53,7 +49,7 @@ void removeFromHead(Node** head)
 void deleteList(Node** head) 
 {
     Node* temp = 0;
-    while (*head != nullptr)
+    while (*head)
     {
         temp = *head;
         *head = (*head)->next;

@@ -20,7 +20,7 @@ using std::endl;
 
 void set_console_color(unsigned int color)
 {
-    // colors are 0=black 1=blue 2=green and so on to 15=White
+    // colors are 0=black 1=blue 2=green and so on to 15=white
     // colorattribute = foreground + background * 16
     // to get red text on yellow use 4 + 14*16 = 228
     // light red on yellow would be 12 + 14*16 = 236
@@ -172,7 +172,7 @@ bool test2()
             << "\n" << endl;
 
         if (!full)
-            // Queue is not empty - test faileD
+            // queue is not empty - test failed
             return false;
 
         int dequeueResult = dequeue(q1);

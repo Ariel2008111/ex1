@@ -9,7 +9,6 @@ typedef struct LinkedList
 {
     Node* head;
 } LinkedList;
-Node* createList();
 void printList(Node* head);
 void addToHead(Node** head, int value);
 void removeFromHead(Node** head);
