@@ -9,7 +9,7 @@ typedef struct Stack
 } Stack;
 
 void push(Stack* s, unsigned int element);
-int pop(Stack* s); // Return -1 if stack is empty
+int pop(Stack* s); // return -1 if stack is Empty
 
 void initStack(Stack* s);
 void cleanStack(Stack* s);

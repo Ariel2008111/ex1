@@ -37,5 +37,5 @@ void cleanStack(Stack* s)
     {
         pop(s);
     }
-    s->top = nullptr;//Null for Top
+    s->top = nullptr;//NULL for Top
 }

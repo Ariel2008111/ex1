@@ -183,7 +183,7 @@ std::string arrayToString(int numbers[], int size)
 bool test3()
 {
 	set_console_color(LIGHT_YELLOW);
-	// Check basic data structure functions
+	// Check basic data structure functionS
 	cout <<
 		"*******************************\n" <<
 		"Test 3 - utils\n" <<
